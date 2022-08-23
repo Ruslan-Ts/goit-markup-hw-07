@@ -4,16 +4,19 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
+    &__web--blue {
+        color: var(--accent-color);
+    }
+    &__studio--black {
+        color: #000000;
+        }
+    &__studio--wite {
+        color: var(--text-light);
+    }
 }
 
-.logo-prime {
-    color: var(--accent-color);
-}
 
-.logo-second {
-    color: #000000;
-}
 
-.logo-second-inv {
-    color: var(--text-light);
-}
+
+
