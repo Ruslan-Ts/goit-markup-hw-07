@@ -245,10 +245,16 @@ body {
 .form__checkbox-input:checked + .form__checkbox-label .form__check-icon {
   fill: var(--text-light);
 }
+.form__checkbox-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 .form__checkbox-link {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: var(--accent-color);
