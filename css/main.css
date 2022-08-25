@@ -179,6 +179,7 @@ body {
   padding-left: 42px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 4px;
 }
 .form__input:focus {
   border-color: var(--accent-color);
@@ -199,6 +200,7 @@ body {
   padding: 16px 12px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 4px;
 }
 .form__input-comment:focus {
   border-color: var(--accent-color);
@@ -212,6 +214,7 @@ body {
 }
 .form__chekbox {
   padding-bottom: 30px;
+  margin-left: 12px;
 }
 .form__checkbox-label {
   font-weight: 400;
@@ -705,7 +708,7 @@ body {
   margin-left: 12px;
 }
 
-.nav-projects__list {
+.nav-projects {
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
@@ -725,12 +728,12 @@ body {
   border-radius: 4px;
   border: 0;
   padding: 6px 22px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-projects__btn:hover, .nav-projects__btn:focus {
   color: var(--text-light);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgb(0, 0, 0), 0px 1px 2px rgba(0, 0, 0, 0.08) 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects {

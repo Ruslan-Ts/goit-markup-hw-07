@@ -99,6 +99,7 @@
         padding-left: 42px;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-top: 4px;
 
         &:focus {
             border-color: var(--accent-color);
@@ -122,6 +123,7 @@
         padding: 16px 12px;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-top: 4px;
 
         &:focus {
             border-color: var(--accent-color);
@@ -137,6 +139,7 @@
     }
     &__chekbox {
         padding-bottom: 30px;
+        margin-left: 12px;
     }
 
     &__checkbox-label {
